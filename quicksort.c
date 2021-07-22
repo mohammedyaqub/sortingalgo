@@ -1,4 +1,3 @@
-
 int partition(int *arr,int low,int high){
 int pivot=arr[high];
 int i=(low-1);
@@ -20,4 +19,3 @@ quicksort(arr,i,j-1);//left half of array
 quicksort(arr,i+1,j);//right half of array
 }
 }
-
